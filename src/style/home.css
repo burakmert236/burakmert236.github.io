@@ -1,0 +1,77 @@
+.container {
+    background-color: rgb(180, 194, 204);
+    width: 100vw;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.inner-container {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: 1px solid red;
+    position: relative;
+}
+
+.back-button {
+    width: 115px;
+    height: 35px;
+    color: white;
+    background-color: rgb(80, 83, 83);
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.start-button {
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    color: red;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.school-container {
+    width: 800px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.school-box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.school-image {
+    width: 200px;
+    height: 200px;
+}
+
+.cooming-soon {
+    text-align: center;
+    position: absolute;
+    top: 85px;
+    left: 40px;
+    font-size: 22px;
+    color: rgb(107, 44, 86);
+    font-weight: 900;
+    text-shadow: 3px 3px 4px rgb(107, 44, 86);
+}
